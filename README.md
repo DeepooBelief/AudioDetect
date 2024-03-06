@@ -1,0 +1,2 @@
+# AudioDetect
+ ESP32 INMP441 OPENAI
