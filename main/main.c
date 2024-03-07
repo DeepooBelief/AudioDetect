@@ -63,8 +63,9 @@ void start_openai(uint8_t* data, size_t length){
         ESP_LOGE(TAG, "Unknown error!");
     }
     result->delete (result);
-
+    openai->chatDelete(chatCompletion);
     free(text);
+    OpenAIDelete(openai);
 
 }
 
